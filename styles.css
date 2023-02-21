@@ -137,6 +137,13 @@ main {
     margin: auto;
 }
 
+.card img {
+    width: 56px;
+    height: 56px;
+    margin-top: -24px;
+    margin-left: 28px;
+}
+
 .card-header {
     width: 343px;
     height: 120px;
@@ -321,6 +328,10 @@ footer button {
         margin: auto;
     }
 
+    .card img {
+        margin-left: 32px;
+    }
+
     .card-header {
         width: 339px;
         height: 259px;
@@ -428,6 +439,10 @@ footer button {
         width: 1110px;
         gap: 80px 30px;
         margin: auto;
+    }
+
+    .card img {
+        margin-left: 32px;
     }
 
     .card-header {
