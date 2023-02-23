@@ -7,7 +7,7 @@
 
 <h3>Link</h3>
 
-<a href=""> Live Site URL</a>
+<a href="https://tsikvi.github.io/skilled-elearning-landing-page/"> Live Site URL</a>
 
 <h3>Built with</h3>
 
