@@ -1,5 +1,3 @@
-# skilled-elearning-landing-page
-
 <h1>Frontend Mentor - Skille E-learning Landing Page</h1>
 
 <h3>Screenshot</h3>
