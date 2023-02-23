@@ -44,6 +44,11 @@ header button {
     color: #FFFFFF;
 }
 
+header button:hover {
+    cursor: pointer;
+    background: #666CA3;
+}
+
 /* MAIN CONTENT--------------------------------------- */
 main {
     width: 343px;
@@ -92,7 +97,7 @@ main {
     color: #83869A;
 }
 
-.maximize-budget button {
+.max-budget-button {
     width: 167px;
     height: 56px;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -104,6 +109,12 @@ main {
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
+}
+
+.max-budget-button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    ;
 }
 
 /* .image-container {
@@ -224,6 +235,11 @@ svg {
     border: none;
 }
 
+.card-description button:hover {
+    cursor: pointer;
+    color: #FFA7C3;
+}
+
 /* FOOTER----------------------------------------- */
 footer {
     width: 100%;
@@ -262,11 +278,17 @@ footer button {
     margin-top: 18px;
 }
 
+footer button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
 @media screen and (min-width: 768px) {
     body {
         background-image: url("./assets/image-hero-tablet.png");
         background-repeat: no-repeat;
-        background-position: 500% -9%;
+        background-position: top -90px right -290px;
+
     }
 
     header h1 {
@@ -363,11 +385,12 @@ footer button {
 
 @media screen and (min-width: 1440px) {
     body {
-        background-image: url("./assets/image-hero-tablet.png");
+        background-image: url("./assets/image-hero-desktop.png");
         /* background-size: contain; */
-        background-size: 70%;
+        /* background-size: 70%; */
         background-repeat: no-repeat;
-        background-position: 175% -25%;
+        /* background-position: 175% -25%; */
+        background-position: top -200px right -350px;
 
 
     }
